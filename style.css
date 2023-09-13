@@ -22,6 +22,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 10;
 }
 
 .title-link {
@@ -380,21 +381,23 @@ h2 {
     grid-template-columns: auto auto auto;
 }
 
-.base1 {
+.serviceitem {
     position: relative;
 }
 
-
+.base1,
 .base2,
 .base3,
 .base4,
 .base5,
-.base6 .icon1,
+.base6,
+.icon1,
 .icon2,
 .icon3,
 .icon4,
 .icon5,
-.icon6 .text1,
+.icon6,
+.text1,
 .text2,
 .text3,
 .text4,
@@ -407,8 +410,80 @@ h2 {
     z-index: -2;
 }
 
-.icon1,
-.text1 {
-    left: 100px;
+.text1,
+.text2,
+.text3,
+.text4,
+.text5,
+.text6 {
+    color: #5f5e5e;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 30px;
+}
+
+.icon1 {
+    left: 68px;
+    top: 50px;
+}
+
+.icon4 {
+    left: 64px;
+    top: 46px;
+}
+
+.text1,
+.text4 {
+    left: 43px;
+    top: 99px;
+}
+
+.icon2 {
+    left: 70px;
+    top: 47px;
+}
+
+.icon5 {
+    left: 62px;
     top: 40px;
+}
+
+.text2,
+.text5 {
+    left: 48px;
+    top: 99px;
+}
+
+.icon3 {
+    left: 65px;
+    top: 49px;
+}
+
+.icon6 {
+    left: 65px;
+    top: 38px;
+}
+
+.text3,
+.text6 {
+    left: 35px;
+    top: 99px;
+}
+
+.Newsletter-container2 {
+    height: 182px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 0;
+    margin-top: 100px;
+    background-color: #f4f1f1;
+}
+
+.Clientsicons {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
 }
