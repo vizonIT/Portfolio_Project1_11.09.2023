@@ -482,10 +482,11 @@ h2 {
     background-color: #f4f1f1;
 }
 
-.Clientsicons {
+.Clientsicons,
+.mediaChnl {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 120px;
     align-items: center;
 }
 
@@ -527,4 +528,115 @@ h2 {
     font-size: 16px;
     font-weight: 400px;
     line-height: 26px;
+}
+
+.newsletter2 {
+    padding-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 35px;
+}
+
+.newsletter2 h2 {
+    padding-bottom: 12px;
+}
+
+.smedia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 35px;
+}
+
+.smedia p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+
+.D-motion {
+    margin-top: 100px;
+    position: relative;
+}
+
+.text-top {
+    position: absolute;
+    right: 120px;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+
+}
+
+.motion-designimgs {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img11,
+.img12,
+.img13 {
+    height: 450px;
+}
+
+.img12 {
+    margin-top: 80px;
+}
+
+.img13 {
+    margin-top: 120px;
+}
+
+.textarea1,
+.eclips-arrow {
+    position: relative;
+}
+
+.rectangle {
+    position: absolute;
+    width: 170px;
+    height: 54px;
+    top: 0;
+    right: 118px;
+}
+
+.text10 {
+    color: #282828;
+    font-size: 16px;
+    font-weight: 700px;
+    position: absolute;
+    top: 15px;
+    right: 122px;
+    width: 142px;
+}
+
+.Ellipse167 {
+    position: absolute;
+    top: 0px;
+    right: 135px;
+}
+
+.arrw {
+    position: absolute;
+    top: 17px;
+    right: 152px;
+}
+
+.portfol {
+    position: absolute;
+    top: 16px;
+    /* left: 0px; */
+    margin-left: -15px;
+    color: #131212;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
