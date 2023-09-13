@@ -328,7 +328,8 @@ h2 {
     color: #FF4C60;
 }
 
-.sectiontitle {
+.sectiontitle,
+.sectiontitle2 {
     color: #282828;
     font-size: 30px;
     font-weight: 700px;
@@ -486,4 +487,44 @@ h2 {
     justify-content: center;
     gap: 100px;
     align-items: center;
+}
+
+.BlogNews {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.newsside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.sectionsubtitle2 {
+    padding-right: 0;
+    word-spacing: 2px;
+    padding-top: 14px;
+    color: #282828;
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 26px;
+}
+
+.smallerprints {
+    padding-top: 14px;
+    color: #C4C4C4;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 26px;
+}
+
+.downloadbtn2 {
+    color: #FF4C60;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 26px;
 }
