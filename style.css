@@ -638,5 +638,159 @@ h2 {
     font-weight: bold;
     line-height: 12px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
+.contactblock {
+    margin-top: 100px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.getInTouch {
+    background-color: #F9F3F5;
+    width: 585px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 25px;
+    height: 522px;
+    box-shadow: 2px 2px 3px rgb(224, 223, 223);
+    z-index: 4;
+}
+
+.titleC h2 {
+    color: #282828;
+    font-size: 30px;
+    font-weight: 700px;
+    padding-bottom: 20px;
+}
+
+.titleC p {
+    padding-top: 10px;
+    color: #282828;
+    font-size: 13px;
+    font-weight: bolder;
+    line-height: 11px;
+    word-spacing: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.call-medium {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding-top: 80px;
+    gap: 165px;
+}
+
+.contactMail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactMail p {
+    line-height: 26px;
+    color: #282828;
+    font-weight: 400px;
+    font-size: 16px;
+    padding-top: 13px;
+}
+
+.contactPhone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -35px;
+}
+
+.callicons {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.callicon-1 {
+    position: absolute;
+    top: -48px;
+    left: 17px;
+}
+
+.callicon-2 {
+    position: absolute;
+    top: -30px;
+    left: 30px;
+}
+
+.phone-numbers {
+    position: relative;
+}
+
+.phone-numbers div {
+    color: #282828;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 26px;
+    width: 137px;
+    position: absolute;
+    top: 36px;
+    left: 0;
+}
+
+.contactForm {
+    background-color: #f7f0f0;
+    height: 648px;
+    width: 615px;
+}
+
+.Formdata {
+    height: 100%;
+    padding: 17px 0px 0px 0px;
+    box-shadow: 2px 3px 3px rgb(232, 231, 231);
+}
+
+.Formdata input,
+.Formdata textarea {
+    margin: 20px 0 10px 40px;
+    background-color: #f8f7f7;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 2px 2px 3px rgb(186, 186, 186);
+    font-size: 16px;
+    color: #454242;
+}
+
+.Formdata h2 {
+    padding-left: 196px;
+}
+
+.name,
+.phone,
+.subject,
+.submit {
+    width: 247px;
+    height: 63px;
+}
+
+.e-mail {
+    width: 400px;
+    height: 61px;
+}
+
+.thefooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.thefooter div {
+    color: #FF4C60;
+    font-size: 16px;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    font-weight: 500px;
 }
