@@ -75,6 +75,7 @@ body {
 .vector4,
 .vector5 {
     position: absolute;
+    z-index: -4;
 }
 
 .vector1 {
@@ -794,4 +795,46 @@ h2 {
     letter-spacing: 3px;
     word-spacing: 2px;
     font-weight: 500px;
+}
+
+@media screen and (max-width: 1200px) {
+    .general-content {
+        padding: 0 30px
+    }
+
+    .header-content {
+        /* flex-direction: column; */
+        padding-left: 30px;
+    }
+
+    .image-side {
+        width: 30px;
+    }
+
+}
+
+/* Styling for Mobile Responsiveness */
+@media screen and (max-width: 750px) {
+    .user-intro {
+        font-size: 23px;
+    }
+
+    .Newsletter-container1,
+    .Newsletter-container2 {
+        min-width: 750px;
+    }
+
+    .newsletter2 {
+        padding-left: -30px;
+    }
+
+    .ServicesDisplay {
+        flex-direction: column;
+        gap: 40px
+    }
+
+    .serviceAnalytics {
+        padding-left: 50px;
+        padding-left: 390px;
+    }
 }
